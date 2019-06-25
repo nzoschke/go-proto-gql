@@ -1,4 +1,4 @@
-module github.com/danielvladco/go-proto-gql/pb
+module github.com/nzoschke/go-proto-gql/pb
 
 go 1.12
 

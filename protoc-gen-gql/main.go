@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	. "github.com/danielvladco/go-proto-gql/plugin"
+	. "github.com/nzoschke/go-proto-gql/plugin"
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
 )

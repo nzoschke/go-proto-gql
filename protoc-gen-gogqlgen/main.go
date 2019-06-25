@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	gqlplugin "github.com/danielvladco/go-proto-gql/plugin"
+	gqlplugin "github.com/nzoschke/go-proto-gql/plugin"
 	"io/ioutil"
 	"os"
 	"strconv"
@@ -94,7 +94,7 @@ func (p *plugin) Generate(file *generator.FileDescriptor) {
 	p.PluginImports = generator.NewPluginImports(p.Generator)
 	p.fmtPkg = p.NewImport("fmt")
 	p.ioPkg = p.NewImport("io")
-	p.graphqlPkg = p.NewImport("github.com/danielvladco/go-proto-gql/pb")
+	p.graphqlPkg = p.NewImport("github.com/nzoschke/go-proto-gql/pb")
 	p.jsonPkg = p.NewImport("encoding/json")
 	p.contextPkg = p.NewImport("context")
 
